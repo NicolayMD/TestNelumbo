@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		085FD9D62E46C21D00A9B5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085FD9B72E46C21B00A9B5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085FD9BE2E46C21B00A9B5D5;
+			remoteInfo = NelumboTest;
+		};
+		085FD9E02E46C21D00A9B5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085FD9B72E46C21B00A9B5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085FD9BE2E46C21B00A9B5D5;
+			remoteInfo = NelumboTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08EFACFA2E46C8A90093D21A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		085FD9BF2E46C21B00A9B5D5 /* NelumboTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NelumboTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085FD9D52E46C21D00A9B5D5 /* NelumboTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NelumboTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085FD9DF2E46C21D00A9B5D5 /* NelumboTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NelumboTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		085FD9E72E46C21D00A9B5D5 /* Exceptions for "NelumboTest" folder in "NelumboTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 085FD9BE2E46C21B00A9B5D5 /* NelumboTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		085FD9C12E46C21B00A9B5D5 /* NelumboTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				085FD9E72E46C21D00A9B5D5 /* Exceptions for "NelumboTest" folder in "NelumboTest" target */,
+			);
+			path = NelumboTest;
+			sourceTree = "<group>";
+		};
+		085FD9D82E46C21D00A9B5D5 /* NelumboTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NelumboTestTests;
+			sourceTree = "<group>";
+		};
+		085FD9E22E46C21D00A9B5D5 /* NelumboTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NelumboTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085FD9BC2E46C21B00A9B5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9D22E46C21D00A9B5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9DC2E46C21D00A9B5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085FD9B62E46C21B00A9B5D5 = {
+			isa = PBXGroup;
+			children = (
+				085FD9C12E46C21B00A9B5D5 /* NelumboTest */,
+				085FD9D82E46C21D00A9B5D5 /* NelumboTestTests */,
+				085FD9E22E46C21D00A9B5D5 /* NelumboTestUITests */,
+				08EFACF42E46C8A60093D21A /* Frameworks */,
+				085FD9C02E46C21B00A9B5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		085FD9C02E46C21B00A9B5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085FD9BF2E46C21B00A9B5D5 /* NelumboTest.app */,
+				085FD9D52E46C21D00A9B5D5 /* NelumboTestTests.xctest */,
+				085FD9DF2E46C21D00A9B5D5 /* NelumboTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08EFACF42E46C8A60093D21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085FD9BE2E46C21B00A9B5D5 /* NelumboTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085FD9E82E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTest" */;
+			buildPhases = (
+				085FD9BB2E46C21B00A9B5D5 /* Sources */,
+				085FD9BC2E46C21B00A9B5D5 /* Frameworks */,
+				085FD9BD2E46C21B00A9B5D5 /* Resources */,
+				08EFACFA2E46C8A90093D21A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				085FD9C12E46C21B00A9B5D5 /* NelumboTest */,
+			);
+			name = NelumboTest;
+			packageProductDependencies = (
+			);
+			productName = NelumboTest;
+			productReference = 085FD9BF2E46C21B00A9B5D5 /* NelumboTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		085FD9D42E46C21D00A9B5D5 /* NelumboTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085FD9ED2E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTestTests" */;
+			buildPhases = (
+				085FD9D12E46C21D00A9B5D5 /* Sources */,
+				085FD9D22E46C21D00A9B5D5 /* Frameworks */,
+				085FD9D32E46C21D00A9B5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085FD9D72E46C21D00A9B5D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				085FD9D82E46C21D00A9B5D5 /* NelumboTestTests */,
+			);
+			name = NelumboTestTests;
+			packageProductDependencies = (
+			);
+			productName = NelumboTestTests;
+			productReference = 085FD9D52E46C21D00A9B5D5 /* NelumboTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		085FD9DE2E46C21D00A9B5D5 /* NelumboTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085FD9F02E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTestUITests" */;
+			buildPhases = (
+				085FD9DB2E46C21D00A9B5D5 /* Sources */,
+				085FD9DC2E46C21D00A9B5D5 /* Frameworks */,
+				085FD9DD2E46C21D00A9B5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085FD9E12E46C21D00A9B5D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				085FD9E22E46C21D00A9B5D5 /* NelumboTestUITests */,
+			);
+			name = NelumboTestUITests;
+			packageProductDependencies = (
+			);
+			productName = NelumboTestUITests;
+			productReference = 085FD9DF2E46C21D00A9B5D5 /* NelumboTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085FD9B72E46C21B00A9B5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					085FD9BE2E46C21B00A9B5D5 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					085FD9D42E46C21D00A9B5D5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 085FD9BE2E46C21B00A9B5D5;
+					};
+					085FD9DE2E46C21D00A9B5D5 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 085FD9BE2E46C21B00A9B5D5;
+					};
+				};
+			};
+			buildConfigurationList = 085FD9BA2E46C21B00A9B5D5 /* Build configuration list for PBXProject "NelumboTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085FD9B62E46C21B00A9B5D5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 085FD9C02E46C21B00A9B5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085FD9BE2E46C21B00A9B5D5 /* NelumboTest */,
+				085FD9D42E46C21D00A9B5D5 /* NelumboTestTests */,
+				085FD9DE2E46C21D00A9B5D5 /* NelumboTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085FD9BD2E46C21B00A9B5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9D32E46C21D00A9B5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9DD2E46C21D00A9B5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085FD9BB2E46C21B00A9B5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9D12E46C21D00A9B5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085FD9DB2E46C21D00A9B5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		085FD9D72E46C21D00A9B5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085FD9BE2E46C21B00A9B5D5 /* NelumboTest */;
+			targetProxy = 085FD9D62E46C21D00A9B5D5 /* PBXContainerItemProxy */;
+		};
+		085FD9E12E46C21D00A9B5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085FD9BE2E46C21B00A9B5D5 /* NelumboTest */;
+			targetProxy = 085FD9E02E46C21D00A9B5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		085FD9E92E46C21D00A9B5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NelumboTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		085FD9EA2E46C21D00A9B5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NelumboTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		085FD9EB2E46C21D00A9B5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		085FD9EC2E46C21D00A9B5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085FD9EE2E46C21D00A9B5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NelumboTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NelumboTest";
+			};
+			name = Debug;
+		};
+		085FD9EF2E46C21D00A9B5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NelumboTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NelumboTest";
+			};
+			name = Release;
+		};
+		085FD9F12E46C21D00A9B5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NelumboTest;
+			};
+			name = Debug;
+		};
+		085FD9F22E46C21D00A9B5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicolayMartinez.NelumboTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NelumboTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085FD9BA2E46C21B00A9B5D5 /* Build configuration list for PBXProject "NelumboTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085FD9EB2E46C21D00A9B5D5 /* Debug */,
+				085FD9EC2E46C21D00A9B5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085FD9E82E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085FD9E92E46C21D00A9B5D5 /* Debug */,
+				085FD9EA2E46C21D00A9B5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085FD9ED2E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085FD9EE2E46C21D00A9B5D5 /* Debug */,
+				085FD9EF2E46C21D00A9B5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085FD9F02E46C21D00A9B5D5 /* Build configuration list for PBXNativeTarget "NelumboTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085FD9F12E46C21D00A9B5D5 /* Debug */,
+				085FD9F22E46C21D00A9B5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085FD9B72E46C21B00A9B5D5 /* Project object */;
+}
