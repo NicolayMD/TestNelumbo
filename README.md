@@ -3,7 +3,7 @@
 ## 📋 Instrucciones para correr el proyecto
 1. Clonar este repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/NicolayMD/TestNelumbo.git>
    ```
 2. Abrir el proyecto en **Xcode 15 o superior**.
 3. Seleccionar un simulador o dispositivo físico con **iOS 15+**.
